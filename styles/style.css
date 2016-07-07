@@ -1,3 +1,20 @@
 #navbar > ul.nav.navbar-nav.navbar-right > a  {
   margin-left: 15px;
 }
+
+body > .container {
+  margin-top: 90px;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background: #222222;
+}
+
+body > footer > div > p {
+  margin-top: 15px;
+  text-align: center;
+}
