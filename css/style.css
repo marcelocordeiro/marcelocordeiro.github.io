@@ -577,7 +577,7 @@ h3.w3l_head.two {
 /*-- //services --*/
 /*-- /skills --*/
 .skills{
-      background: url(../images/banner.jpg) no-repeat center top;
+      background: url(../images/skills.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -585,6 +585,9 @@ h3.w3l_head.two {
     -ms-background-size: cover;
        min-height: 690px;
     padding-top: 9em;
+}
+.skills.two {
+  background: url(../images/more_skills.jpg) no-repeat center top;
 }
 .skill-agile h4 {
     font-size: 1.6em;
@@ -769,7 +772,7 @@ p.b_label {
 }
 /*-- //portfolio --*/
 #counter {
-    background: url(../images/banner.jpg) no-repeat center top;
+    background: url(../images/hobbies.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
