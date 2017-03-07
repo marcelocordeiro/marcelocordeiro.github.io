@@ -163,7 +163,7 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-       min-height: 715px;
+    min-height: 350px;
     position: relative;
 }
 .banner {
@@ -377,7 +377,7 @@ ul.top-links li {
     display: inline-block;
 }
 ul.top-links {
-      margin-top: 0;
+      margin-top: 30px;
 }
 ul.top-links li a i.fa {
     color: #fff;
@@ -733,7 +733,7 @@ p.counter {
 	 font-size:2em;
     text-transform: uppercase;
        color: #44c7f4;
-	
+
 }
 .count {
     padding-top: 11em;
@@ -1020,7 +1020,7 @@ p.counter {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1041,7 +1041,7 @@ p.counter {
 /*-- start-responsive-design --*/
 @media (max-width:1440px){
 	#home {
-		min-height: 678px;
+		min-height: 330px;
 	}
 	.education-w3l {
     padding: 6em 4em;
@@ -1079,7 +1079,7 @@ p.counter {
 		padding-top: 9em;
 	}
 	#home {
-		min-height: 639px;
+		min-height: 310px;
 	}
 	.banner img {
 		border: 7px solid #44c7f4;
@@ -1098,7 +1098,7 @@ p.counter {
 }
 @media (max-width:1080px){
 	#home {
-		min-height: 594px;
+		min-height: 310px;
 	}
 	.callbacks_tabs {
 		bottom: -128%;
@@ -1122,10 +1122,10 @@ p.counter {
 		display: block;
 		padding:14px 6px;
 	}
-}	
+}
 @media (max-width: 991px){
 	#home {
-		min-height: 559px;
+		min-height: 310px;
 	}
 	.nav > li > a {
 		position: relative;
@@ -1198,7 +1198,7 @@ p.counter {
 }
 @media (max-width: 800px){
 	#home {
-		min-height: 518px;
+		min-height: 310px;
 	}
 	.callbacks_tabs {
 		bottom: -128%;
@@ -1248,7 +1248,7 @@ p.counter {
 		color: #44c7f4!important;
 	}
 	#home {
-		min-height: 514px;
+		min-height: 295px;
 	}
 	.banner img {
 		border: 7px solid #44c7f4;
@@ -1295,11 +1295,11 @@ p.counter {
 		font-size: 1.8em;
 		margin: 0.3em 0;
 	}
-	
+
 }
 @media (max-width: 667px){
 	#home {
-		min-height: 464px;
+		min-height: 280px;
 	}
 	.slider-info p {
 		font-size: 0.9em;
@@ -1570,7 +1570,7 @@ p.counter {
 		font-size: 0.85em;
 	}
 	#home {
-		min-height: 404px;
+		min-height: 250px;
 	}
 	.navbar-brand {
 		line-height: 35px;
@@ -1621,7 +1621,7 @@ p.counter {
 }
 @media (max-width:320px){
 	#home {
-		min-height: 404px;
+		min-height: 250px;
 	}
 	.navbar-brand {
 		line-height: 35px;
@@ -1638,7 +1638,7 @@ p.counter {
 		bottom: -117%;
 		left: 26%;
 	}
-	
+
 	.banner img {
 		border: 5px solid #44c7f4;
 		width: 45%;
