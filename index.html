@@ -51,10 +51,14 @@
     <footer>
       <div class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
         <div class="container">
-          <p class="navbar-text">Marcelo Augusto Cordeiro© - 2016</p>
+          <p class="navbar-text">Marcelo Augusto Cordeiro - <span id="year"></span></p>
         </div>
       </div>
     </footer>
+
+    <script>
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
   </body>
 </html>
