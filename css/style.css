@@ -715,6 +715,9 @@ p.b_label {
     -ms-background-size: cover;
     min-height:450px;
 }
+#counter > div > h3 {
+  padding-top: 2em;
+}
 .agile_count_grid {
     text-align: center;
 }
@@ -736,7 +739,7 @@ p.counter {
 
 }
 .count {
-    padding-top: 11em;
+    padding-top: 5em;
 }
 /*-- mail --*/
 .w3_mail_grids textarea{
