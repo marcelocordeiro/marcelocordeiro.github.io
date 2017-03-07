@@ -19,17 +19,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 .overlay-pro-content {
     position: relative;
-    top: 25%;
-    width: 100%;
+    top: 10%;
+    width: 90%;
     text-align: center;
-    margin-top: 30px;
+    margin: auto;
+    max-width: 650px;
+}
+
+.overlay-pro-content > h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.overlay-pro-content > img {
+  max-width: 90%;
+}
+
+.overlay-pro-content > p {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .overlay-pro a {
     padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
     display: block;
     transition: 0.3s;
 }
