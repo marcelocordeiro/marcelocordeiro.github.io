@@ -688,6 +688,14 @@ p.b_label {
     border-right: none;
     padding: 1em 0;
 }
+.education-agile-w3l.three {
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 1em 0;
+}
 /*-- //education --*/
 .agileits_portfolio_grids {
     margin: 2em 0 0 0;
