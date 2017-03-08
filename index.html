@@ -115,8 +115,12 @@
 					</div>
 					<div class="w3ls-agile-left-info">
 						<h4>Resume</h4>
-						<a href="downloads/resume-eng.pdf" target="_blank" class="btn btn-default btn-xs">View Resume</a>
+						<a href="javascript:void(0)" class="btn btn-default btn-xs" onclick="openResume()">View Resume</a>
 						<a href="downloads/resume-eng.pdf" target="_blank" class="btn btn-default btn-xs">Download Resume</a>
+						<div class="overlay-pro" id="resume">
+	            <a href="javascript:void(0)" class="closebtn" onclick="closeNav('resume')"><img src="images/close.png"></a>
+	            <div class="overlay-pro-content" id="resume_view"></div>
+	          </div>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -511,11 +515,21 @@
 		</div>
 	</div>
 <!-- //footer -->
+
+<!-- js files -->
 <script src="js/jquery-2.2.3.min.js"></script>
-<!-- skills -->
+
 <script src="js/pie-chart.js" type="text/javascript"></script>
+
+<script src="js/pdfobject.js"></script>
+
  <script type="text/javascript">
-        function openNav(id_nav) {
+				function openResume() {
+					openNav("resume");
+					PDFObject.embed("downloads/resume-eng.pdf", "#resume_view");
+				}
+
+				function openNav(id_nav) {
           document.getElementById(id_nav).style.width = "100%";
         }
 
@@ -565,7 +579,6 @@
             });
         });
     </script>
-<!-- skills -->
 						<script src="js/responsiveslides.min.js"></script>
 							<script>
 								// You can also use "$(window).load(function() {"
@@ -596,7 +609,6 @@
 						$('.cm-overlay').cmOverlay();
 					});
 				</script>
-<!-- js files -->
 
 
 

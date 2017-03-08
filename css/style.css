@@ -256,6 +256,13 @@ input[type="submit"],input[type="reset"],.w3ls_footer_grid_leftl,.w3ls_footer_gr
     letter-spacing: 7px;
     margin: 2em 0;
 }
+.pdfobject-container {
+  height: 80%;
+  width: 100%;
+}
+.pdfobject {
+  border: 1px solid #666;
+}
 /*--slider--*/
 #slider2,
 #slider3 {
