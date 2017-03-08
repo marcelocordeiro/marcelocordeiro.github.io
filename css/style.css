@@ -584,7 +584,7 @@ h3.w3l_head.two {
 /*-- //services --*/
 /*-- /skills --*/
 .skills{
-      background: url(../images/skills.jpg) no-repeat center top;
+    background: url(../images/skills.jpg) no-repeat center top;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -596,6 +596,18 @@ h3.w3l_head.two {
 }
 .skills.two {
   background: url(../images/more_skills.jpg) no-repeat center top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  padding-bottom: 11em;
+}
+#demo-pie-4, #demo-pie-5, #demo-pie-6 {
+  margin-top: 6em;
+}
+.pie-title-center {
+  margin-top: 2em;
 }
 .skill-agile h4 {
     font-size: 1.6em;
@@ -1064,6 +1076,9 @@ p.counter {
        padding-top: 4em;
        padding-bottom: 4em;
 	}
+  .skills.two {
+    padding-bottom: 15.5em;
+  }
 	.banner h2 {
 		font-size: 3em;
 		letter-spacing: 6px;
@@ -1088,6 +1103,9 @@ p.counter {
 		min-height: 696px;
     padding-bottom: 5.5em;
 	}
+  .skills.two {
+    padding-bottom: 15em;
+  }
 	#counter {
 		min-height: 400px;
 	}
@@ -1129,6 +1147,9 @@ p.counter {
     padding-top: 3em;
     padding-bottom: 4.5em;
 	}
+  .skills.two {
+    padding-bottom: 17em;
+  }
 	.nav > li > a {
 		position: relative;
 		display: block;
@@ -1174,6 +1195,7 @@ p.counter {
 	}
 	.skills.two {
 		    min-height: 421px;
+        padding-bottom: 6em;
 	}
 	.agileits_portfolio_grid {
 		padding: 0 4px;
@@ -1346,6 +1368,9 @@ p.counter {
 		border: 5px solid #44c7f4;
 		width: 31%;
 	}
+  .skills.two {
+    padding-bottom: 5em;
+  }
 }
 @media (max-width: 640px){
 	.callbacks_tabs {
@@ -1480,6 +1505,9 @@ p.counter {
     padding-top: 1em;
     padding-bottom: 1em;
   }
+  .skills.two {
+    padding-bottom: 1em;
+  }
 	.education-agile-grids {
 		margin-top: 0.5em;
 	}
@@ -1555,10 +1583,13 @@ p.counter {
 		margin-bottom: 10px;
 	}
 	.skills {
-	    min-height: 417px;
+	  min-height: 417px;
 		padding-top: 1em;
 		padding-bottom: 1em;
 	}
+  .skills.two {
+    padding-bottom: 1em
+  }
 	.w3l_footer_pos {
 		margin-top: 1em;
 	}

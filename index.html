@@ -94,7 +94,7 @@
 				</div>
 				<div class="col-md-7 w3ls-agile-left">
 					<div class="w3ls-agile-left-info">
-						<p>Hello, my name is Marcelo. I'm a graduate student in the <a href="http://icmc.usp.br/pos-graduacao/ppgccmc" target="_blank">Computer Science and Computational Mathematics Master's Program</a> from University of São Paulo (USP) in São Carlos, and a member of the <a href="http://www.gbdi.icmc.usp.br/" target="_blank">Database and Image Group</a>.</p><p>I have a bachelor degree in computer science from São Paulo State University (UNESP), during which I had the opportunity to study at the University of Toronto for 16 months as a visiting undergraduate student, under a full scholarship offered by the Brazilian Government.</p><p>Furthermore, I'm a software developer at <a href="http://www.ltia.fc.unesp.br/" target="_blank">LTIA</a>, a laboratory of UNESP focused on innovative technology, where I had the opportunity to work on projects for companies such as Motorola Solutions.</p>
+						<p>Hello, my name is Marcelo. I'm a graduate student in the <a href="http://icmc.usp.br/pos-graduacao/ppgccmc" target="_blank">Computer Science and Computational Mathematics Master's Program</a> from University of São Paulo (USP) in São Carlos, and a member of the <a href="http://www.gbdi.icmc.usp.br/" target="_blank">Database and Image Group</a>.</p><p>I have a bachelor degree in computer science from São Paulo State University (UNESP), during which I had the opportunity to study at the University of Toronto for 16 months as a visiting undergraduate student, under a full scholarship offered by the Brazilian Government.</p><p>Furthermore, I'm a volunteer software developer at <a href="http://www.ltia.fc.unesp.br/" target="_blank">LTIA</a>, a laboratory of UNESP focused on innovative technology, where I had the opportunity to work on projects for companies such as Motorola Solutions.</p>
 					</div>
 					<div class="w3ls-agile-left-info">
 						<h4>Name</h4>
@@ -245,13 +245,24 @@
 			<div id="demo-pie-1" class="pie-title-center" data-percent="25"> <span class="pie-value"></span> </div>
 			<h4>HTML</h4>
 		</div>
-
 		<div class="col-sm-4 abt-gd-left text-center">
-			<div id="demo-pie-3" class="pie-title-center" data-percent="75"> <span class="pie-value"></span> </div>
+			<div id="demo-pie-2" class="pie-title-center" data-percent="75"> <span class="pie-value"></span> </div>
 			<h4>Java Script</h4>
 		</div>
 		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-3" class="pie-title-center" data-percent="15"> <span class="pie-value"></span> </div>
+			<h4>UI/UX Designer</h4>
+		</div>
+		<div class="col-sm-4 abt-gd-left text-center">
 			<div id="demo-pie-4" class="pie-title-center" data-percent="15"> <span class="pie-value"></span> </div>
+			<h4>UI/UX Designer</h4>
+		</div>
+		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-5" class="pie-title-center" data-percent="15"> <span class="pie-value"></span> </div>
+			<h4>UI/UX Designer</h4>
+		</div>
+		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-6" class="pie-title-center" data-percent="15"> <span class="pie-value"></span> </div>
 			<h4>UI/UX Designer</h4>
 		</div>
 		<div class="clearfix"></div>
@@ -587,15 +598,33 @@
                 }
             });
 
-			$('#demo-pie-4').pieChart({
-                barColor: '#44c7f4',
-                trackColor: '#fff',
-                lineCap: 'square',
-                lineWidth: 8,
-                onStep: function (from, to, percent) {
-                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
-                }
-            });
+						$('#demo-pie-4').pieChart({
+			                barColor: '#44c7f4',
+			                trackColor: '#fff',
+			                lineCap: 'square',
+			                lineWidth: 8,
+			                onStep: function (from, to, percent) {
+			                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+			                }
+			      });
+						$('#demo-pie-5').pieChart({
+			                barColor: '#44c7f4',
+			                trackColor: '#fff',
+			                lineCap: 'square',
+			                lineWidth: 8,
+			                onStep: function (from, to, percent) {
+			                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+			                }
+			      });
+						$('#demo-pie-6').pieChart({
+			                barColor: '#44c7f4',
+			                trackColor: '#fff',
+			                lineCap: 'square',
+			                lineWidth: 8,
+			                onStep: function (from, to, percent) {
+			                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+			                }
+			      });
         });
     </script>
 						<script src="js/responsiveslides.min.js"></script>
