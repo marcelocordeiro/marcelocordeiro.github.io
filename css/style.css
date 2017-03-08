@@ -590,8 +590,9 @@ h3.w3l_head.two {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-       min-height: 690px;
-    padding-top: 9em;
+    min-height: 690px;
+     padding-top: 4em;
+     padding-bottom: 4em;
 }
 .skills.two {
   background: url(../images/more_skills.jpg) no-repeat center top;
@@ -656,8 +657,12 @@ p.b_label {
     width: 69%;
 }
 .education-w3l {
-    padding: 8em 4em;
+    padding-top: 4em;
+    padding-bottom: 4em;
     background: #f3f2f2;
+}
+#education, #experience > div.clearfix {
+  background: #f3f2f2;
 }
 .education-agile-w3l-info h4 ,.education-agile-w3l-year h4{
     font-size: 1.6em;
@@ -1051,10 +1056,13 @@ p.counter {
 		min-height: 330px;
 	}
 	.education-w3l {
-    padding: 6em 4em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 	}
 	.skills {
        min-height: 708px;
+       padding-top: 4em;
+       padding-bottom: 4em;
 	}
 	.banner h2 {
 		font-size: 3em;
@@ -1112,10 +1120,13 @@ p.counter {
 		left: 41%;
 	}
 	.education-w3l {
-		padding: 3em 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 	}
 	.skills {
 		min-height: 682px;
+    padding-top: 3em;
+    padding-bottom: 3em;
 	}
 	.nav > li > a {
 		position: relative;
@@ -1461,8 +1472,13 @@ p.counter {
 		width: 63%;
 	}
 	.education-w3l {
-		padding: 2em 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 	}
+  .skills {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 	.education-agile-grids {
 		margin-top: 0.5em;
 	}
@@ -1487,8 +1503,13 @@ p.counter {
 }
 @media (max-width: 414px){
 	.education-w3l {
-		padding: 2em 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 	}
+  .skills {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 	.slider-info p {
 		letter-spacing: 3px;
 		margin: 1em 0;
