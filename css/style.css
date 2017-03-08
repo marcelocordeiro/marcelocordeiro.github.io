@@ -1086,6 +1086,7 @@ p.counter {
 @media (max-width:1280px){
 	.skills {
 		min-height: 696px;
+    padding-bottom: 5.5em;
 	}
 	#counter {
 		min-height: 400px;
@@ -1126,7 +1127,7 @@ p.counter {
 	.skills {
 		min-height: 682px;
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 4.5em;
 	}
 	.nav > li > a {
 		position: relative;
