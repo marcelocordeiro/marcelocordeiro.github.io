@@ -207,12 +207,12 @@
 	     <div class="skill-agile">
 						<div class='bar_group' max='400'>
 						<div class='bar_group__bar thin elastic' label='HTML' value='350'></div>
-						<div class='bar_group__bar thin elastic' label='CSS' value='350'></div>
 						<div class='bar_group__bar thin elastic' label='JavaScript' value='350'></div>
-						<div class='bar_group__bar thin elastic' label='Bootstrap' value='200'></div>
-						<div class='bar_group__bar thin elastic' label='Express' value='200'></div>
-						<div class='bar_group__bar thin elastic' label='Spark' value='100'></div>
-						<div class='bar_group__bar thin elastic' label='Clojure' value='100'></div>
+						<div class='bar_group__bar thin elastic' label='React' value='350'></div>
+						<div class='bar_group__bar thin elastic' label='GraphQL' value='275'></div>
+						<div class='bar_group__bar thin elastic' label='CSS' value='200'></div>
+						<div class='bar_group__bar thin elastic' label='Jest' value='100'></div>
+						<div class='bar_group__bar thin elastic' label='Cucumber' value='100'></div>
 					</div>
 
 						</div>
@@ -230,24 +230,36 @@
 			<h4>Git</h4>
 		</div>
 		<div class="col-sm-4 abt-gd-left text-center">
-			<div id="demo-pie-2" class="pie-title-center" data-percent="80"> <span class="pie-value"></span> </div>
-			<h4>Agile Development</h4>
+			<div id="demo-pie-2" class="pie-title-center" data-percent="75"> <span class="pie-value"></span> </div>
+			<h4>Redux</h4>
 		</div>
 		<div class="col-sm-4 abt-gd-left text-center">
-			<div id="demo-pie-3" class="pie-title-center" data-percent="70"> <span class="pie-value"></span> </div>
-			<h4>Database Design</h4>
+			<div id="demo-pie-3" class="pie-title-center" data-percent="60"> <span class="pie-value"></span> </div>
+			<h4>Apollo Client</h4>
 		</div>
 		<div class="col-sm-4 abt-gd-left text-center">
-			<div id="demo-pie-4" class="pie-title-center" data-percent="45"> <span class="pie-value"></span> </div>
+			<div id="demo-pie-4" class="pie-title-center" data-percent="50"> <span class="pie-value"></span> </div>
+			<h4>Apollo Server</h4>
+		</div>
+		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-5" class="pie-title-center" data-percent="35"> <span class="pie-value"></span> </div>
 			<h4>Amazon Web Services</h4>
 		</div>
 		<div class="col-sm-4 abt-gd-left text-center">
-			<div id="demo-pie-5" class="pie-title-center" data-percent="30"> <span class="pie-value"></span> </div>
-			<h4>React</h4>
+			<div id="demo-pie-6" class="pie-title-center" data-percent="30"> <span class="pie-value"></span> </div>
+			<h4>Functional Programming</h4>
 		</div>
 		<div class="col-sm-4 abt-gd-left text-center">
-			<div id="demo-pie-6" class="pie-title-center" data-percent="25"> <span class="pie-value"></span> </div>
-			<h4>Functional Programming</h4>
+			<div id="demo-pie-7" class="pie-title-center" data-percent="25"> <span class="pie-value"></span> </div>
+			<h4>Docker</h4>
+		</div>
+		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-8" class="pie-title-center" data-percent="25"> <span class="pie-value"></span> </div>
+			<h4>Kubernetes</h4>
+		</div>
+		<div class="col-sm-4 abt-gd-left text-center">
+			<div id="demo-pie-9" class="pie-title-center" data-percent="25"> <span class="pie-value"></span> </div>
+			<h4>Jenkins</h4>
 		</div>
 		<div class="clearfix"></div>
 </div>
@@ -256,6 +268,19 @@
 		     <h3 class="w3l_head three">My Experience</h3>
 			  <div class="education-agile-grids">
 				  <div class="education-agile-w3l">
+				     <div class="education-agile-w3l-year">
+					       <h4>Sep 2018 - Present</h4>
+						   <h6>Full-stack developer</h6>
+				     </div>
+					 <div class="education-agile-w3l-info">
+					       <h4>Monitora</h4>
+						   <p>Sào Carlos - SP - Brazil</p>
+							 <p>Full-stack developer working with Java and React projects for VistaJet.</p>
+							 <!-- <p>Projects developed: <a href="javascript:void(0)" onclick="openNav('moto')">Radio and dispatcher simulator for Mastersite ASTRO® 25</a>, <a href="javascript:void(0)" onclick="openNav('p25')">App Simulator for Mastersite ASTRO® 25</a>, and <a href="javascript:void(0)" onclick="openNav('fellowship')">Fellowship</a></p> -->
+				     </div>
+				      <div class="clearfix"></div>
+				  </div>
+				  <div class="education-agile-w3l two">
 				     <div class="education-agile-w3l-year">
 					       <h4>Jun 2015 - Dec 2017</h4>
 						   <h6>Software Developer and Team Coordinator</h6>
@@ -268,7 +293,7 @@
 				     </div>
 				      <div class="clearfix"></div>
 				  </div>
-				  <div class="education-agile-w3l two">
+				  <div class="education-agile-w3l three">
 				     <div class="education-agile-w3l-year">
 					       <h4>May 2014 - Aug 2014</h4>
 						   <h6>Summer Intern</h6>
@@ -609,6 +634,33 @@
 			                }
 			      });
 						$('#demo-pie-6').pieChart({
+			                barColor: '#44c7f4',
+			                trackColor: '#fff',
+			                lineCap: 'square',
+			                lineWidth: 8,
+			                onStep: function (from, to, percent) {
+			                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+			                }
+			      });
+						$('#demo-pie-7').pieChart({
+			                barColor: '#44c7f4',
+			                trackColor: '#fff',
+			                lineCap: 'square',
+			                lineWidth: 8,
+			                onStep: function (from, to, percent) {
+			                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+			                }
+			      });
+						$('#demo-pie-8').pieChart({
+			                barColor: '#44c7f4',
+			                trackColor: '#fff',
+			                lineCap: 'square',
+			                lineWidth: 8,
+			                onStep: function (from, to, percent) {
+			                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+			                }
+			      });
+						$('#demo-pie-9').pieChart({
 			                barColor: '#44c7f4',
 			                trackColor: '#fff',
 			                lineCap: 'square',
